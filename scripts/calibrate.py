@@ -35,6 +35,7 @@ def main():
     apply = sub.add_parser('apply')
     apply.add_argument('--predictions', type=Path, required=True)
     apply.add_argument('--parameters', type=Path, required=True)
+    apply.add_argument('--family', choices=['shared','candidate'], help='Required for selection bundles')
     apply.add_argument('--output', type=Path, required=True)
     args = ap.parse_args()
     if args.command == 'fit':
@@ -61,7 +62,12 @@ def main():
         scores = read_scores(args.predictions)
         saved = json.loads(args.parameters.read_text(encoding='utf-8'))
         if saved['labels'] != LABELS: raise ValueError('Candidate order mismatch')
-        values = transform(np.asarray(list(scores.values()),dtype=float),saved['parameters'])
+        if 'parameters' in saved:
+            params = saved['parameters']
+        else:
+            if not args.family: ap.error('--family is required for a selection bundle')
+            params = saved[args.family]
+        values = transform(np.asarray(list(scores.values()),dtype=float),params)
         result = {r:v for r,v in zip(scores,values.tolist())}
     args.output.parent.mkdir(parents=True,exist_ok=True)
     with args.output.open('x',encoding='utf-8') as f: json.dump(result,f,ensure_ascii=False,indent=2)

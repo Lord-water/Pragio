@@ -1,0 +1,310 @@
+{
+  "original_independent_s42": {
+    "config": "configs/original_independent_s42.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "original_coupled_s42": {
+    "config": "configs/original_coupled_s42.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "original_an_ls_s42": {
+    "config": "configs/original_an_ls_s42.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "an_ls"
+    ]
+  },
+  "A_repeat_bert_an_ls_s2026_w1": {
+    "config": "configs/A_repeat_bert_an_ls_s2026_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "an_ls"
+    ]
+  },
+  "A_repeat_bert_an_ls_s3407_w1": {
+    "config": "configs/A_repeat_bert_an_ls_s3407_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "an_ls"
+    ]
+  },
+  "A_repeat_bert_coupled_s2026_w1": {
+    "config": "configs/A_repeat_bert_coupled_s2026_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "A_repeat_bert_coupled_s3407_w1": {
+    "config": "configs/A_repeat_bert_coupled_s3407_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "A_repeat_bert_independent_s2026_w1": {
+    "config": "configs/A_repeat_bert_independent_s2026_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "A_repeat_bert_independent_s3407_w1": {
+    "config": "configs/A_repeat_bert_independent_s3407_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "B_main_bert_human_matched_s2026_w1": {
+    "config": "configs/B_main_bert_human_matched_s2026_w1.json",
+    "runner": "src/experiments/train_matched_human.py",
+    "arguments": []
+  },
+  "B_main_bert_human_matched_s3407_w1": {
+    "config": "configs/B_main_bert_human_matched_s3407_w1.json",
+    "runner": "src/experiments/train_matched_human.py",
+    "arguments": []
+  },
+  "B_main_bert_human_matched_s42_w1": {
+    "config": "configs/B_main_bert_human_matched_s42_w1.json",
+    "runner": "src/experiments/train_matched_human.py",
+    "arguments": []
+  },
+  "F_targets_bert_an_ls_095_s2026_w1": {
+    "config": "configs/F_targets_bert_an_ls_095_s2026_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "an_ls"
+    ]
+  },
+  "F_targets_bert_an_ls_095_s3407_w1": {
+    "config": "configs/F_targets_bert_an_ls_095_s3407_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "an_ls"
+    ]
+  },
+  "F_targets_bert_an_ls_095_s42_w1": {
+    "config": "configs/F_targets_bert_an_ls_095_s42_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "an_ls"
+    ]
+  },
+  "B_main_bert_epr_adapted_s2026_w1": {
+    "config": "configs/B_main_bert_epr_adapted_s2026_w1.json",
+    "runner": "src/experiments/train_epr.py",
+    "arguments": [
+      "--mode",
+      "epr_adapted"
+    ]
+  },
+  "B_main_bert_epr_adapted_s3407_w1": {
+    "config": "configs/B_main_bert_epr_adapted_s3407_w1.json",
+    "runner": "src/experiments/train_epr.py",
+    "arguments": [
+      "--mode",
+      "epr_adapted"
+    ]
+  },
+  "B_main_bert_epr_adapted_s42_w1": {
+    "config": "configs/B_main_bert_epr_adapted_s42_w1.json",
+    "runner": "src/experiments/train_epr.py",
+    "arguments": [
+      "--mode",
+      "epr_adapted"
+    ]
+  },
+  "B_main_bert_crisp_adapted_s2026_w1": {
+    "config": "configs/B_main_bert_crisp_adapted_s2026_w1.json",
+    "runner": "src/experiments/train_crisp.py",
+    "arguments": [
+      "--mode",
+      "crisp_adapted"
+    ]
+  },
+  "B_main_bert_crisp_adapted_s3407_w1": {
+    "config": "configs/B_main_bert_crisp_adapted_s3407_w1.json",
+    "runner": "src/experiments/train_crisp.py",
+    "arguments": [
+      "--mode",
+      "crisp_adapted"
+    ]
+  },
+  "C_backbone_roberta_wwm_coupled_s2026_w1": {
+    "config": "configs/C_backbone_roberta_wwm_coupled_s2026_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "C_backbone_roberta_wwm_coupled_s3407_w1": {
+    "config": "configs/C_backbone_roberta_wwm_coupled_s3407_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "C_backbone_roberta_wwm_coupled_s42_w1": {
+    "config": "configs/C_backbone_roberta_wwm_coupled_s42_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "C_backbone_roberta_wwm_crisp_adapted_s2026_w1": {
+    "config": "configs/C_backbone_roberta_wwm_crisp_adapted_s2026_w1.json",
+    "runner": "src/experiments/train_crisp.py",
+    "arguments": [
+      "--mode",
+      "crisp_adapted"
+    ]
+  },
+  "C_backbone_roberta_wwm_crisp_adapted_s3407_w1": {
+    "config": "configs/C_backbone_roberta_wwm_crisp_adapted_s3407_w1.json",
+    "runner": "src/experiments/train_crisp.py",
+    "arguments": [
+      "--mode",
+      "crisp_adapted"
+    ]
+  },
+  "C_backbone_roberta_wwm_crisp_adapted_s42_w1": {
+    "config": "configs/C_backbone_roberta_wwm_crisp_adapted_s42_w1.json",
+    "runner": "src/experiments/train_crisp.py",
+    "arguments": [
+      "--mode",
+      "crisp_adapted"
+    ]
+  },
+  "C_backbone_roberta_wwm_independent_s2026_w1": {
+    "config": "configs/C_backbone_roberta_wwm_independent_s2026_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "C_backbone_roberta_wwm_independent_s3407_w1": {
+    "config": "configs/C_backbone_roberta_wwm_independent_s3407_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "C_backbone_roberta_wwm_independent_s42_w1": {
+    "config": "configs/C_backbone_roberta_wwm_independent_s42_w1.json",
+    "runner": "src/train_context_model.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "T_tune_bert_crisp_shift1_s42": {
+    "config": "configs/T_tune_bert_crisp_shift1_s42.json",
+    "runner": "src/experiments/train_crisp.py",
+    "arguments": [
+      "--mode",
+      "crisp_adapted"
+    ]
+  },
+  "B_main_bert_single_s42_w1": {
+    "config": "configs/B_main_bert_single_s42_w1.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "single"
+    ]
+  },
+  "B_main_bert_single_s2026_w1": {
+    "config": "configs/B_main_bert_single_s2026_w1.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "single"
+    ]
+  },
+  "B_main_bert_single_s3407_w1": {
+    "config": "configs/B_main_bert_single_s3407_w1.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "single"
+    ]
+  },
+  "D_weight_bert_coupled_s42_w0.5": {
+    "config": "configs/D_weight_bert_coupled_s42_w0.5.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "D_weight_bert_coupled_s42_w2": {
+    "config": "configs/D_weight_bert_coupled_s42_w2.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "coupled"
+    ]
+  },
+  "D_weight_bert_independent_s42_w0.5": {
+    "config": "configs/D_weight_bert_independent_s42_w0.5.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "D_weight_bert_independent_s42_w2": {
+    "config": "configs/D_weight_bert_independent_s42_w2.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  },
+  "E_diagnostic_bert_coupled_no_preference_s42_w1": {
+    "config": "configs/E_diagnostic_bert_coupled_no_preference_s42_w1.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "no_preference"
+    ]
+  },
+  "E_diagnostic_bert_human_matched_frozen_s42_w1": {
+    "config": "configs/E_diagnostic_bert_human_matched_frozen_s42_w1.json",
+    "runner": "src/experiments/train_matched_human.py",
+    "arguments": []
+  },
+  "E_diagnostic_bert_independent_no_history_s42_w1": {
+    "config": "configs/E_diagnostic_bert_independent_no_history_s42_w1.json",
+    "runner": "src/experiments/train_stage3.py",
+    "arguments": [
+      "--mode",
+      "independent"
+    ]
+  }
+}

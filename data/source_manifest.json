@@ -1,0 +1,40 @@
+{
+  "source": "LCCC-large",
+  "member": "LCCD.json",
+  "archive_sha256": "2886ec16d892f9155be9470e83007f0630b7b7dd559e1604c4ee65b1bbb2ef56",
+  "counts": {
+    "train": 32021,
+    "dev": 4026,
+    "heldout": 3916
+  },
+  "sampling": "bottom 40000 SHA256 priorities of unique (normalized dialogue, target turn); no label balancing",
+  "split_rule": "80/10/10 hash split by components joining same dialogue or masked target body; old CPBench components forced train",
+  "source_url": "https://github.com/thu-coai/CDial-GPT",
+  "redistributed_text": false,
+  "labels": {
+    "train": {
+      "contexts": 48,
+      "N": 136,
+      "A": 413,
+      "U": 27
+    },
+    "dev": {
+      "contexts": 50,
+      "N": 130,
+      "A": 399,
+      "U": 71
+    },
+    "first_test": {
+      "contexts": 200,
+      "A": 1570,
+      "N": 715,
+      "U": 115
+    },
+    "confirmation": {
+      "contexts": 200,
+      "N": 475,
+      "U": 237,
+      "A": 1688
+    }
+  }
+}

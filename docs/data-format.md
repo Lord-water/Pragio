@@ -1,6 +1,6 @@
 # Input format
 
-Supply UTF-8 JSONL records and JSON annotations under the ignored `data/` directory. The examples below are invented schema illustrations, not study samples or human judgments.
+The released `data/labels/` contains final annotations and `data/index/` contains text-free corpus indices. Store reconstructed or custom dialogue records under ignored `data/local/`. See [data access](data-access.md) for reconstruction. The examples below are invented schema illustrations, not study samples or human judgments.
 
 ## Dialogue records
 

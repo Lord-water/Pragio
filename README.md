@@ -3,9 +3,9 @@
 <p align="center"><b>Separate usage and judgment supervision for language in context.</b></p>
 <p align="center"><a href="#the-idea">The idea</a> · <a href="#how-it-works">How it works</a> · <a href="#try-the-core">Try the core</a> · <a href="docs/usage.md">Training & inference</a> · <a href="docs/data-format.md">Data format</a></p>
 
-**Code release** · PyTorch · Chinese NLP
+**Code + annotations** · PyTorch · Chinese NLP
 
-Implementation for contextual acceptability modeling. Bring your own licensed data, annotations and pretrained backbone.
+Implementation for contextual acceptability modeling, with **498 human-annotated contexts**, fixed corpus indices and recorded training configurations. Obtain the source dialogue corpus and pretrained backbone separately under their original terms.
 
 ## The idea
 
@@ -75,11 +75,14 @@ Unobserved candidates are not automatically assigned negative acceptability labe
 | :--- | :--- |
 | [Training and inference](docs/usage.md) | Configuration, commands and development-only calibration |
 | [Input format](docs/data-format.md) | Dialogue records, candidate order and judgment encoding |
+| [Data access](docs/data-access.md) | 498 final annotation records and reconstruction of fixed LCCC inputs |
+| [Annotation protocol](docs/annotation-guidelines.md) | A/N/U decisions, review and later clarification |
+| [Experiment configurations](docs/experiment-configurations.md) | 40 launchable configurations and development selection |
 | [Heads and losses](src/method_core.py) | Independent heads and comparison objectives |
 | [Encoder interface](src/training_interface.py) | Context encoding and masked human supervision |
 | [Calibration](src/development_calibration.py) | Shared calibration; [candidate offsets](src/candidate_calibration.py) |
 
-This release contains source code, documentation and original vector artwork. Paper files, empirical results, record-level predictions, datasets, trained weights and fitted calibration parameters are not included. It is not a complete experimental reproduction bundle.
+This release contains code, text-free annotation records and corpus indices, configurations, documentation and artwork. Raw dialogue text, NaturalConv-derived record-level materials, paper files, empirical model results, predictions, trained weights and fitted calibration parameters are not included. It is not a complete archive of every experiment.
 
 ## Attribution and use
 

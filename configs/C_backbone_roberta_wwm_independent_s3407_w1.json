@@ -1,0 +1,29 @@
+{
+  "backbone": "models/backbone_roberta_wwm_ext",
+  "backbone_repo": "hfl/chinese-roberta-wwm-ext",
+  "backbone_revision": "5c58d0b8ec1d9014354d691c538661bf00bfdb44",
+  "train": "data/local/train_ready.jsonl",
+  "dev": "data/local/dev_ready.jsonl",
+  "human_annotations": "data/labels/train.json",
+  "seed": 3407,
+  "epochs": 3,
+  "natural_batch_size": 16,
+  "human_batch_size": 4,
+  "eval_batch_size": 16,
+  "max_length": 192,
+  "encoder_lr": 2e-05,
+  "head_lr": 0.001,
+  "preference_lr": 0.01,
+  "weight_decay": 0.01,
+  "human_weight": 1.0,
+  "an_ls_smoothing": 0.1,
+  "warmup_fraction": 0.06,
+  "max_grad_norm": 1.0,
+  "cpu_threads": 2,
+  "gpu_memory_fraction": 0.24,
+  "min_free_gpu_gib": 7,
+  "log_every": 100,
+  "modes": [
+    "independent"
+  ]
+}
