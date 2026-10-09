@@ -15,7 +15,9 @@ Pragio models these two questions with separate heads over a shared encoder: **w
 
 ## How it works
 
-![Dialogue context enters a shared encoder with separate usage and acceptability heads. Each head receives its own supervision.](assets/method.svg)
+![Pragio training and inference. Dialogue history and a masked target pass through a shared BERT-style encoder. Separate usage and acceptability heads produce softmax and candidate-wise sigmoid scores. Observed choices supervise NLL; known human judgments supervise masked BCE, excluding U labels. Their weighted sum trains the model. At inference, the acceptability head feeds calibration fitted on development data.](assets/method.png)
+
+*The dialogue is illustrative. The diagram shows the architecture and supervision, not experimental predictions.*
 
 | Usage | Acceptability |
 | :--- | :--- |
