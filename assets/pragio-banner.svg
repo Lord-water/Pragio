@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
+<title id="title">Pragio: Chinese sentence-final acceptability</title>
+<desc id="desc">Separate usage and judgment supervision. Blue and green dialogue bubbles form a paired project mark.</desc>
+<rect width="1280" height="390" rx="24" fill="#f1f8f8"/>
+<path d="M930 0H1256Q1280 0 1280 24V390H1085L835 140Z" fill="#d5f3e9"/>
+<circle cx="1170" cy="75" r="145" fill="none" stroke="#b5e4d4" stroke-width="2"/>
+<circle cx="1170" cy="75" r="190" fill="none" stroke="#b5e4d4" stroke-width="2"/>
+<g transform="translate(62 43)"><path d="M0 8Q0 0 8 0H34Q42 0 42 8V27Q42 35 34 35H17L5 44V35Q0 35 0 27Z" fill="#2455e6"/>
+<path d="M25 23Q25 15 33 15H59Q67 15 67 23V42Q67 50 59 50H46L34 59V50Q25 50 25 42Z" fill="#009b7d"/>
+<path d="M35 28H54M35 36H48" stroke="white" stroke-width="3" stroke-linecap="round"/></g>
+<text x="149" y="76" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#375763">LANGUAGE IN CONTEXT</text>
+<text x="60" y="195" font-family="Georgia, serif" font-size="104" font-weight="bold" letter-spacing="-4" fill="#112e3c">Pragio</text>
+<text x="65" y="253" font-family="Segoe UI, sans-serif" font-size="27" fill="#163c50">One choice. More than one possibility.</text>
+<text x="65" y="299" font-family="Segoe UI, sans-serif" font-size="19" fill="#4a6370">Chinese sentence-final acceptability</text>
+<rect x="65" y="331" width="41" height="5" rx="2" fill="#2455e6"/><rect x="114" y="331" width="41" height="5" rx="2" fill="#009b7d"/>
+<g transform="translate(868 100) rotate(-8)"><path d="M0 22Q0 0 22 0H160Q182 0 182 22V141Q182 163 160 163H57L21 193V163Q0 163 0 141Z" fill="#2455e6"/>
+<text x="91" y="112" text-anchor="middle" fill="white" font-family="Microsoft YaHei, sans-serif" font-size="83">吗</text></g>
+<g transform="translate(1037 176) rotate(9)"><path d="M0 20Q0 0 20 0H130Q150 0 150 20V112Q150 132 130 132H108L134 159V132H20Q0 132 0 112Z" fill="#009b7d"/>
+<text x="75" y="94" text-anchor="middle" fill="white" font-family="Microsoft YaHei, sans-serif" font-size="71">吧</text></g>
+<path d="M1163 111V141M1148 126H1178" stroke="#edaa35" stroke-width="6" stroke-linecap="round"/>
+</svg>
